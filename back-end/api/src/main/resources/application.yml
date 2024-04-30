@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: super-set-api
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/super_set
+    username: postgres
+    password: postgres1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 9000
